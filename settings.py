@@ -1,0 +1,42 @@
+from os import path
+
+WIN_WIDTH = 1000
+FIRST_COLOR = "PURPLE"
+SECOND_COLOR = "YELLOW"
+EMPTY = "WHITE"
+
+BLUE = "blue"
+RED = "red"
+YELLOW = "YELLOW"
+PURPLE = "PURPLE"
+TAG = EMPTY
+START_WIN_WIDTH = 200
+START_WIN_HEIGHT = 200
+
+MODE_SIMPLE_AI = "Simple AI"
+MODE_SMART_AI = "Smart AI"
+MODE_HOTSEAT = "Hot Seat"
+WIN_HEIGHT = 1000
+SIZE_HEX = 15
+SIZE_TABLE_15x15 = "15X15"
+SIZE_TABLE_11x11 = "11X11"
+SIZE_TABLE_14x14 = "14X14"
+SIZE_TABLE_6x6 = "6X6"
+
+SIZE_TABLE = {
+    SIZE_TABLE_6x6: (6, 6),
+    SIZE_TABLE_11x11: (11, 11),
+    SIZE_TABLE_14x14: (14, 14),
+    SIZE_TABLE_15x15: (15, 15)
+}
+
+SIZE_CANVAS = {
+    SIZE_TABLE_6x6: (425, 260),
+    SIZE_TABLE_11x11: (425, 260),
+    SIZE_TABLE_14x14: (535, 325),
+    SIZE_TABLE_15x15: (575, 348)
+}
+
+PATH_RECORDS = path.join(path.dirname(__file__), 'Data', 'records')
+PATH_SAVE_GAME = path.join(path.dirname(__file__), 'Data', 'save_game')
+
